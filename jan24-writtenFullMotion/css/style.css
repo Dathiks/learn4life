@@ -1,0 +1,17 @@
+.one {
+  text-align: center;
+  border:1px solid black;
+  width:33%;
+  margin:auto;
+  display:inline-block;
+  position:relative;;
+  left:0;
+}
+.two {
+  padding: 20px;
+}
+a {
+  padding: 0 10%;
+  border-radius: 5px;
+  border:1px solid black;
+}

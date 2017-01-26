@@ -1,1 +1,14 @@
-#learn4life
+#learn4life{}
+h1 {
+  text-align: center;
+}
+nav ul li {
+  position: relative;
+  left:0;
+  display:inline-block;
+  list-style:none;
+}
+nav {
+  text-align: center;
+  padding:
+}

@@ -1,0 +1,36 @@
+
+.left {
+  width:45%;
+  display:inline-block;
+  margin-left:10%;
+  float:left;
+}
+.right {
+  width:30%;
+  display: inline-block;
+  float:left;
+  margin-right: 10%;
+}
+.two {
+  display:inline-block;
+  width:100%;
+}
+.one {
+  width:80%;
+}
+.left img {
+  width:80%;
+}
+.right img {
+  float:left;
+  padding:0 2%;
+  width: 15%;
+}
+h5 {
+  color:grey;
+  padding-top: 2.5%;
+}
+.middle {
+  border-top:1px solid grey;
+  border-bottom: 1px solid grey;
+}

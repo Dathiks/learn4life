@@ -1,0 +1,68 @@
+body {
+  margin: none;
+  padding: none;
+}
+.first {
+  text-align: center;
+  list-style: none;
+  background-image:url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.first div h1 {
+  padding-top: 10%;
+}
+.first div ul{
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 10%;
+}
+.first ul li {
+  display: inline-block;
+  position: relative;
+  height:100px;
+  left: 0;
+}
+.second .one {
+  width:45%;
+  margin-left:10%;
+  display: inline-block;
+}
+.four {
+  display: inline-block;
+  width:100%;
+}
+.side-list {
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  position: relative;
+}
+.side-list li {
+  width: 100%;
+  float: left;
+}
+.middle {
+  margin:5% 0;
+  padding:5% 0;
+  border-top:1px solid  grey  ;
+  border-bottom: 1px solid grey;
+  border-width: 80%;
+}
+.side-list img {
+  float: left;
+  padding-right: 2%;
+}
+.side-list h3 {
+  padding-bottom:10%;
+  float: none;
+}
+.side-list p {
+  font-size: 65%;
+  color: grey;
+  float: none;
+  margin: 0;
+  padding:0 0 2.5% 0;
+}

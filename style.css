@@ -62,3 +62,13 @@ section {
 article {
   width: 40%;
 }
+footer{
+  margin:0;
+}
+footer p {
+  display: flex;
+  background: black;
+  color:white;
+  justify-content: center;
+  margin:0;
+}

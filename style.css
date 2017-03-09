@@ -1,17 +1,18 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-
 body {
   margin:0;
   font-family: sans-serif;
   background-color: hsl(360, 100%, 100%);
+}
+ul li img {
+  width:100%;
 }
 a {
   text-decoration: none;
   color:inherit;
 }
 a:hover {
-  margin:auto 0;
   text-decoration: underline;
 }
 header div {
@@ -22,27 +23,33 @@ header {
   width:100%;
   display: flex;
   flex-direction: row;
+  height:75px;
+}
+header nav {
+  margin:auto;
+}
+header h1 {
+  margin:auto;
+}
+header div {
+  margin:auto;
 }
 nav ul{
   display: flex;
   flex-direction: row;
   list-style:none;
-  width: 200px;
-  margin: auto 0;
-}
-ul {
-  width:100%;
-  overflow: hidden;
-  margin: auto 0;
-}
-ul:hover{
+  width: 300px;
+  margin:0;
   overflow: auto;
+  padding: 0;
+  height:75px;
 }
 nav ul li {
-  width:60%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  width:100%;
+  margin: 0 50px 0 0;
 }
 section {
   display:flex;
